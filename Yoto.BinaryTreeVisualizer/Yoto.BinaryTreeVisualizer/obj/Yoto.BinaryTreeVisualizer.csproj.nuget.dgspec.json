@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\src\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj": {}
+    "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\src\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj": {
+    "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\src\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj",
+        "projectUniqueName": "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj",
         "projectName": "Yoto.BinaryTreeVisualizer",
-        "projectPath": "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\src\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj",
+        "projectPath": "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer.csproj",
         "packagesPath": "C:\\Users\\CRV\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\src\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\obj\\",
+        "outputPath": "E:\\Users\\Crv\\Pessoal\\Aplicativos\\binary-tree-visualizer-desktop\\Yoto.BinaryTreeVisualizer\\Yoto.BinaryTreeVisualizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
