@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yoto.BinaryTreeVisualizer\Yoto.BinaryTreeVisualizer.csproj">
+      <Project>{2ffc3716-f7aa-4698-9ad4-ac51df048552}</Project>
+      <Name>Yoto.BinaryTreeVisualizer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

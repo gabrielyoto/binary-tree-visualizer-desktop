@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlTree = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
+            this.numAddValue = new System.Windows.Forms.NumericUpDown();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numRemoveValue = new System.Windows.Forms.NumericUpDown();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numAddValue)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numRemoveValue)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnAdd
+            // btnRemove
             // 
-            this.btnAdd.Location = new System.Drawing.Point(6, 74);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(298, 36);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Remove node";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnRemove.Location = new System.Drawing.Point(6, 74);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(298, 36);
+            this.btnRemove.TabIndex = 0;
+            this.btnRemove.Text = "Remove node";
+            this.btnRemove.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
             // 
@@ -79,32 +79,25 @@
             this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
             // 
-            // panel1
+            // pnlTree
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.Location = new System.Drawing.Point(328, 27);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(515, 577);
-            this.panel1.TabIndex = 2;
+            this.pnlTree.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pnlTree.Location = new System.Drawing.Point(328, 27);
+            this.pnlTree.Name = "pnlTree";
+            this.pnlTree.Size = new System.Drawing.Size(515, 577);
+            this.pnlTree.TabIndex = 2;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.numAddValue);
+            this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Location = new System.Drawing.Point(12, 27);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(310, 115);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(74, 35);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(118, 20);
-            this.numericUpDown1.TabIndex = 1;
             // 
             // label1
             // 
@@ -115,11 +108,28 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Node value";
             // 
+            // numAddValue
+            // 
+            this.numAddValue.Location = new System.Drawing.Point(74, 35);
+            this.numAddValue.Name = "numAddValue";
+            this.numAddValue.Size = new System.Drawing.Size(118, 20);
+            this.numAddValue.TabIndex = 1;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(6, 73);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(298, 36);
+            this.btnAdd.TabIndex = 0;
+            this.btnAdd.Text = "Add node";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.numericUpDown2);
-            this.groupBox2.Controls.Add(this.btnAdd);
+            this.groupBox2.Controls.Add(this.numRemoveValue);
+            this.groupBox2.Controls.Add(this.btnRemove);
             this.groupBox2.Location = new System.Drawing.Point(12, 148);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(310, 116);
@@ -136,21 +146,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Node value";
             // 
-            // button1
+            // numRemoveValue
             // 
-            this.button1.Location = new System.Drawing.Point(6, 73);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(298, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Add node";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(74, 34);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(118, 20);
-            this.numericUpDown2.TabIndex = 1;
+            this.numRemoveValue.Location = new System.Drawing.Point(74, 34);
+            this.numRemoveValue.Name = "numRemoveValue";
+            this.numRemoveValue.Size = new System.Drawing.Size(118, 20);
+            this.numRemoveValue.TabIndex = 1;
             // 
             // frmMain
             // 
@@ -159,7 +160,7 @@
             this.ClientSize = new System.Drawing.Size(855, 616);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlTree);
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmMain";
             this.Text = "Main";
@@ -167,10 +168,10 @@
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numAddValue)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numRemoveValue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,17 +179,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlTree;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown numAddValue;
+        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numRemoveValue;
     }
 }
